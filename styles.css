@@ -1,5 +1,6 @@
 *{
-    margin: 0 auto;  
+    margin: 0 auto;
+    padding: 0;  
 }
 
 body{
@@ -56,6 +57,44 @@ button{
     font-size: 16px;
     color: #E5E7EB;
 }
+
+.information{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+.divs-content {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 60px; /* Espacio entre los divs hijos */
+    margin: 0;
+}
+
+.divs-content > div {
+    width: 110px;
+    height: 120px;
+    border: 2px solid #3882f6;
+    margin: 0;
+    border-radius: 10px;
+}
+h2{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+
+
+
+
+
+
 
 footer{
     background-color: #1F2937;
