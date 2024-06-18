@@ -9,6 +9,14 @@ body{
     display: flex;
     justify-content: space-between;
 }
+h3{
+    color:#F9FAF8;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color:#E5E7EB ;
+}
 h1{
     font-size: 48px;
     color:#F9FAF8 ;
@@ -16,7 +24,13 @@ h1{
 .hero-section{
    background-color: #1F2937;
 }
-
+button{
+    background-color:#3882f6 ;
+    color: #E5E7EB;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+}
 .description{
     color: #E5E7EB;
 }
