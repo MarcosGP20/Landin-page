@@ -36,10 +36,15 @@ h1{
 .hero-section{
    background-color: #1F2937;
    padding: 15px;
+   height:400px;
   
 }
+img{
+    width: auto;
+    height: 100%;
+}
 .img-hero{
-    width: 45%;
+    width: 50%;
     height: auto;
     border-radius: 4px;
 }
@@ -58,29 +63,55 @@ button{
     color: #E5E7EB;
 }
 
-.information{
+.information {
     display: flex;
     gap: 10px;
     flex-direction: column;
     align-items: center;
-    height: 200px;
+    
 }
+
 .divs-content {
     display: flex; 
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     gap: 60px; /* Espacio entre los divs hijos */
+}
+
+.car-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
     margin: 0;
 }
 
-.divs-content > div {
-    width: 110px;
+.car-image {
+    width: 250px;
     height: 120px;
-    border: 2px solid #3882f6;
-    margin: 0;
-    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.car-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    text-align: center;
+}
+
 h2{
     margin-top: 35px;
     text-align: center;
@@ -88,14 +119,6 @@ h2{
     font-weight: bold;
     color: #1F2937;
 }
-
-
-
-
-
-
-
-
 footer{
     background-color: #1F2937;
     
