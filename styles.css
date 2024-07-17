@@ -68,7 +68,8 @@ button{
     gap: 10px;
     flex-direction: column;
     align-items: center;
-    
+    margin-bottom: 50px ;
+    padding: 0 ;
 }
 
 .divs-content {
@@ -129,9 +130,14 @@ h2{
 }
 .phrase-text{
     font-size: 36px;
-    
+    font-weight: lighter;
     font-style:  italic;
     text-align: center;
+    color:#1F2937;
+}
+.ceo-jeep{
+    font-size: 24px;
+    font-weight: bold;
 }
 footer{
     background-color: #1F2937;
