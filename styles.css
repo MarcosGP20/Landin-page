@@ -23,6 +23,10 @@ a{
     display:flex;
     gap: 35px;
 }
+.text-content{
+    margin-right: 20px;
+    width: 70%;
+}
 h1{
     font-size: 48px;
     color:#F9FAF8 ;
@@ -43,15 +47,18 @@ h1{
 .hero-section{
     background: linear-gradient(135deg, #0a0b0c 0%, #09214b 100%);
    padding: 15px;
-   height:400px;
-  
+   height:550px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
 }
 img{
     width: auto;
     height: 100%;
 }
 .img-hero{
-    width: 50%;
+    width: 70%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -188,4 +195,5 @@ footer{
     justify-content: center;
     align-items: center;
     color:#aaa;
+    text-align: center;
 }
