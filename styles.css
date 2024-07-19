@@ -97,6 +97,7 @@ button:hover {
     align-items: center;
     margin-bottom: 50px ;
     padding: 0 ;
+    
 }
 
 .divs-content {
@@ -105,6 +106,7 @@ button:hover {
     justify-content: space-evenly;
     width: 100%;
     gap: 60px; /* Espacio entre los divs hijos */
+    flex-wrap: wrap;
 }
 
 .car-item {
