@@ -23,6 +23,12 @@ a{
     display:flex;
     gap: 35px;
 }
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+.links li a:hover {
+    color:#78a7f3  ;
+}
 .text-content{
     margin-right: 20px;
     width: 70%;
